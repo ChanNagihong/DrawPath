@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.nagihong.drawpath.PieChartView
+        android:id="@+id/piechart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"></com.nagihong.drawpath.PieChartView>
+
+    <com.nagihong.drawpath.LineChartView
+        android:id="@+id/linechart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <com.nagihong.drawpath.LineChartView2
+        android:id="@+id/linechart2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:visibility="gone" />
+
+    <com.nagihong.drawpath.DualLineChartView
+        android:id="@+id/duallinechart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"></com.nagihong.drawpath.DualLineChartView>
+
+    <com.nagihong.drawpath.BarChartView
+        android:id="@+id/barchart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"></com.nagihong.drawpath.BarChartView>
+
+    <com.nagihong.drawpath.HorizontalBarChartView
+        android:id="@+id/horizontalBarChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"></com.nagihong.drawpath.HorizontalBarChartView>
+
+    <com.nagihong.drawpath.HalfPieChartView
+        android:id="@+id/halfPieChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"></com.nagihong.drawpath.HalfPieChartView>
+
+    <com.nagihong.drawpath.StackedBarChartView
+        android:id="@+id/stackedBarChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"></com.nagihong.drawpath.StackedBarChartView>
+
+    <com.nagihong.drawpath.MultipleBarChartView
+        android:id="@+id/multipleBarChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"></com.nagihong.drawpath.MultipleBarChartView>
+
+    <com.nagihong.drawpath.CandleStickChartView
+        android:id="@+id/candleStickChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"></com.nagihong.drawpath.CandleStickChartView>
+
+    <com.nagihong.drawpath.ComparisonBarChart
+        android:id="@+id/comparisonBarChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"></com.nagihong.drawpath.ComparisonBarChart>
+
+    <com.nagihong.drawpath.BubbleChartView
+        android:id="@+id/bubbleChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"></com.nagihong.drawpath.BubbleChartView>
+
+</LinearLayout>
